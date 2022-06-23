@@ -17,6 +17,7 @@ button.onclick = async (event) => {
     if (res.status == 200) {
         event.target.classList.add("hidden")
         introText.classList.add("hidden")
+        introText2.classList.add("hidden")
 
         const resJSON = await res.json()
         const image = document.createElement("img")

@@ -43,12 +43,18 @@ body {
     display: none;
 }
 
-.birdImg {
+.Img {
     width: 450px;
 }
 
 .intro-text {
     color: white;
     margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.intro-text2 {
+    color: white;
+    margin-top: 50px;
     font-size: 25px;
 }
